@@ -13,16 +13,7 @@ btnTambah.addEventListener("click", function(){
     const span = document.createElement("span");
     listbaru.innerHTML = inputValue.value;
 
-    listbaru.appendChild(span);
-    daftarTugas.appendChild(listbaru);
-
-    inputValue.value = "";
-    inputDate.value = "";
-    inputValue.focus();
-
-});
-
-const checkbox = document.createElement("input");
+    const checkbox = document.createElement("input");
 checkbox.type = "checkbox";
 listbaru.appendChild(checkbox);
 
@@ -76,3 +67,15 @@ btnDelete.onclick = function(){
     }
 };
 listbaru.appendChild(btnDelete);
+
+
+    listbaru.appendChild(span);
+
+    daftarTugas.appendChild(listbaru);
+
+    inputValue.value = "";
+    inputDate.value = "";
+    inputValue.focus();
+
+});
+
