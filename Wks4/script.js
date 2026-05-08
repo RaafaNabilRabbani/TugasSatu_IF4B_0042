@@ -58,6 +58,10 @@ btnEdit.onclick = function(){
     const newTask = promt("Masukkan Tugas Baru :", spanTugas.innerHTML);
     if(newTask){
         spanTugas.innerHTML = newTask;
+        const newDate = prompt("Edit Tanggal (YYYY - MM - DD):");
+        if(newDate){
+            spanTanggal.innerHTML = ` (${newDate})`;
+        }
     }
 }
 
