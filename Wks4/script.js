@@ -36,7 +36,7 @@ btnTambah.addEventListener("click", function(){
     labelStatus.className = "labelStatus";
     listbaru.appendChild(labelStatus);
 
-    checkbox.addEventListener(function(){
+    checkbox.addEventListener("change", function(){
         if(this.checked){
             labelStatus.innerHTML = "Selesai";
             labelStatus.className = "labelStatus";
