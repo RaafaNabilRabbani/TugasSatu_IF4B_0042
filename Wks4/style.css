@@ -38,9 +38,27 @@ input{
     border: none;
 }
 
+li{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    list-style: none;
+    padding: 15px;
+}
+
 #btnTambahTodo{
     background-color: green;
     color: black;
     border: none;
     border-radius: 5px;
+}
+
+.labelStatus{
+    color: yellow;
+    font-size: 1em;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
 }
