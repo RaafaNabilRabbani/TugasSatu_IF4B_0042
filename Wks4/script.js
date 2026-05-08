@@ -18,9 +18,6 @@ btnTambah.addEventListener("click", function(){
     const containerTeks = document.createElement("div");
     containerTeks.style.flex = "1";
 
-    const span = document.createElement("span");
-    listbaru.innerHTML = inputValue.value;
-
     const spanTugas = document.createElement("span");
     spanTugas.innerHTML = inputValue.value;
 
@@ -77,8 +74,6 @@ btnTambah.addEventListener("click", function(){
     };
     listbaru.appendChild(btnDelete);
 
-
-    listbaru.appendChild(span);
 
     daftarTugas.appendChild(listbaru);
 
