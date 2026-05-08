@@ -26,6 +26,17 @@ input{
     flex: 1;
 }
 
+#inputTask{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#inputDate{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
 
 #btnTambahTodo{
     background-color: green;
