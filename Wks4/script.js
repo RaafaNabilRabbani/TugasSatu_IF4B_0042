@@ -45,6 +45,10 @@ labelStatus.innerHTML = "Progress";
 labelStatus.className = "labelStatus";
 listbaru.appendChild(labelStatus);
 
+checkbox.addEventListener(function(){
+    
+});
+
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
