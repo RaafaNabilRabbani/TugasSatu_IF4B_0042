@@ -77,3 +77,11 @@ li{
     border-radius: 5px;
     margin-left: 10px;
 }
+
+.btnDelete{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
