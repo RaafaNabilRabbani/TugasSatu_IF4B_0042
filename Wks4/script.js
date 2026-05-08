@@ -43,6 +43,7 @@ listbaru.appendChild(containerTeks);
 const labelStatus = document.createElement("span");
 labelStatus.innerHTML = "Progress";
 labelStatus.className = "labelStatus";
+listbaru.appendChild(labelStatus);
 
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
