@@ -25,6 +25,10 @@ btnTambah.addEventListener("click", function(){
 const checkbox = document.createElement("input");
 checkbox.type = "checkbox";
 listbaru.appendChild(checkbox);
+
+const containerTeks = document.createElement("div");
+containerTeks.style.flex = "1";
+
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
