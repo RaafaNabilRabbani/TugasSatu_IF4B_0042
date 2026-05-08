@@ -22,9 +22,13 @@ btnTambah.addEventListener("click", function(){
 
 });
 
+const checkbox = document.createElement("input");
+checkbox.type = "checkbox";
+listbaru.appendChild(checkbox);
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
+
 
 btnEdit.onclick = function(){
     const newTask = promt("Masukkan Tugas Baru :", spanTugas.innerHTML);
