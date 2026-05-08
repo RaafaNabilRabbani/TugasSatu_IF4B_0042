@@ -23,7 +23,7 @@ btnTambah.addEventListener("click", function(){
 
     const spanTanggal = document.createElement("small");
     spanTanggal.innerHTML = ` (${inputDate.value})`;
-    spanTanggal.style.color = "#888";
+    spanTanggal.style.color = "block";
 
     containerTeks.appendChild(spanTugas);
     containerTeks.appendChild(spanTanggal);
@@ -73,7 +73,6 @@ btnTambah.addEventListener("click", function(){
         }
     };
     listbaru.appendChild(btnDelete);
-
 
     daftarTugas.appendChild(listbaru);
 
