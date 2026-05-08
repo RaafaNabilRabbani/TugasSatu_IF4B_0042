@@ -32,6 +32,10 @@ containerTeks.style.flex = "1";
 const spanTugas = document.createElement("span");
 spanTugas.innerGTML = inputValue.value;
 
+const spanTanggal = document.createElement("small");
+spanTanggal.innerHTML = ` (${inputDate.value})`;
+spanTanggal.style.color = "#888";
+
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
