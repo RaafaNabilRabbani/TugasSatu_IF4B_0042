@@ -20,3 +20,14 @@ btnTambah.addEventListener("click", function(){
     inputValue.focus();
 
 });
+
+const btnDelete = document.createElement("button");
+btnDelete.innerHTML = "Hapus";
+btnDelete.className = "btnDelete";
+
+btnDelete.onclick = function(){
+    if(confirm("Apakah Anda Yakin Ingin Menghapus Tugas Ini?")){
+        listbaru.remove();
+    }
+};
+listbaru.appendChild(btnDelete);
