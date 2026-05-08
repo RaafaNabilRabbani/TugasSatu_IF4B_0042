@@ -85,3 +85,13 @@ li{
     border-radius: 5px;
     margin-left: 10px;
 }
+
+.btnEdit:hover{
+    background-color: darkblue;
+}
+.btnDelete:hover{
+    background-color: darkred;
+}
+#btnTambahTodo:hover{
+    background-color: darkgreen;
+}
