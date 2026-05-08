@@ -36,6 +36,10 @@ const spanTanggal = document.createElement("small");
 spanTanggal.innerHTML = ` (${inputDate.value})`;
 spanTanggal.style.color = "#888";
 
+containerTeks.appendChild(spanTugas);
+containerTeks.appendChild(spanTanggal);
+listbaru.appendChild(containerTeks);
+
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
