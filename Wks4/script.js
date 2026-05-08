@@ -17,9 +17,14 @@ btnTambah.addEventListener("click", function(){
     daftarTugas.appendChild(listbaru);
 
     inputValue.value = "";
+    inputDate.value = "";
     inputValue.focus();
 
 });
+
+const btnEdit = document.createElement("button");
+btnEdit.innerHTML = "Edit";
+btnEdit.className = "btnEdit";
 
 const btnDelete = document.createElement("button");
 btnDelete.innerHTML = "Hapus";
