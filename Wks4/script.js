@@ -46,7 +46,7 @@ labelStatus.className = "labelStatus";
 listbaru.appendChild(labelStatus);
 
 checkbox.addEventListener(function(){
-    
+
 });
 
 const btnEdit = document.createElement("button");
@@ -56,6 +56,9 @@ btnEdit.className = "btnEdit";
 
 btnEdit.onclick = function(){
     const newTask = promt("Masukkan Tugas Baru :", spanTugas.innerHTML);
+    if(newTask){
+        spanTugas.innerHTML = newTask;
+    }
 }
 
 const btnDelete = document.createElement("button");
