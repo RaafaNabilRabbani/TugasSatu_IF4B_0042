@@ -63,7 +63,8 @@ btnEdit.onclick = function(){
             spanTanggal.innerHTML = ` (${newDate})`;
         }
     }
-}
+};
+listbaru.appendChild(btnEdit);
 
 const btnDelete = document.createElement("button");
 btnDelete.innerHTML = "Hapus";
