@@ -50,7 +50,7 @@ li{
 
 #btnTambahTodo{
     background-color: green;
-    color: black;
+    color: white;
     border: none;
     border-radius: 5px;
 }
@@ -61,4 +61,12 @@ li{
     padding: 2px 5px;
     border-radius: 3px;
     font-weight: bold;
+}
+
+.progressStatus{
+    color: yellow;
+}
+
+.doneStatus{
+    color: green;
 }
