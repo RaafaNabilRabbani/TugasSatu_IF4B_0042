@@ -29,6 +29,9 @@ listbaru.appendChild(checkbox);
 const containerTeks = document.createElement("div");
 containerTeks.style.flex = "1";
 
+const spanTugas = document.createElement("span");
+spanTugas.innerGTML = inputValue.value;
+
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
