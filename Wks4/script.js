@@ -10,8 +10,6 @@ btnTambah.addEventListener("click", function(){
     }
 
     const listbaru = document.createElement("li");
-    const span = document.createElement("span");
-    listbaru.innerHTML = inputValue.value;
 
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
@@ -19,6 +17,9 @@ btnTambah.addEventListener("click", function(){
 
     const containerTeks = document.createElement("div");
     containerTeks.style.flex = "1";
+
+    const span = document.createElement("span");
+    listbaru.innerHTML = inputValue.value;
 
     const spanTugas = document.createElement("span");
     spanTugas.innerHTML = inputValue.value;
@@ -39,7 +40,7 @@ btnTambah.addEventListener("click", function(){
     checkbox.addEventListener("change", function(){
         if(this.checked){
             labelStatus.innerHTML = "Selesai";
-            labelStatus.className = "labelStatus";
+            labelStatus.className = "doneStatus";
             containerTeks.classList.add("completed");
         } else{
             labelStatus.innerHTML = "Progress";
