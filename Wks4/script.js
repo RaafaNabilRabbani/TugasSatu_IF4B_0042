@@ -26,6 +26,10 @@ const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
 btnEdit.className = "btnEdit";
 
+btnEdit.onclick = function(){
+    const newTask = promt("Masukkan Tugas Baru :", spanTugas.innerHTML);
+}
+
 const btnDelete = document.createElement("button");
 btnDelete.innerHTML = "Hapus";
 btnDelete.className = "btnDelete";
