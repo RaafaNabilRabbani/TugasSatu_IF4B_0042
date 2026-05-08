@@ -30,7 +30,7 @@ const containerTeks = document.createElement("div");
 containerTeks.style.flex = "1";
 
 const spanTugas = document.createElement("span");
-spanTugas.innerGTML = inputValue.value;
+spanTugas.innerHTML = inputValue.value;
 
 const spanTanggal = document.createElement("small");
 spanTanggal.innerHTML = ` (${inputDate.value})`;
@@ -39,6 +39,10 @@ spanTanggal.style.color = "#888";
 containerTeks.appendChild(spanTugas);
 containerTeks.appendChild(spanTanggal);
 listbaru.appendChild(containerTeks);
+
+const labelStatus = document.createElement("span");
+labelStatus.innerHTML = "Progress";
+labelStatus.className = "labelStatus";
 
 const btnEdit = document.createElement("button");
 btnEdit.innerHTML = "Edit";
